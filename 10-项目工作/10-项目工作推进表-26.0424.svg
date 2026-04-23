@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1320" viewBox="0 0 1600 1320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f7f3"/>
+      <stop offset="100%" stop-color="#e7efe9"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#173a2f"/>
+      <stop offset="100%" stop-color="#2b6a53"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fbf9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#173a2f" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title { font: 700 36px "PingFang SC", "Microsoft YaHei", sans-serif; fill: #ffffff; }
+      .subtitle { font: 400 17px "PingFang SC", "Microsoft YaHei", sans-serif; fill: #d9ebe3; }
+      .section { font: 700 24px "PingFang SC", "Microsoft YaHei", sans-serif; fill: #18382f; }
+      .label { font: 600 15px "PingFang SC", "Microsoft YaHei", sans-serif; fill: #45655a; }
+      .text { font: 400 15px "PingFang SC", "Microsoft YaHei", sans-serif; fill: #1f3a31; }
+      .small { font: 400 13px "PingFang SC", "Microsoft YaHei", sans-serif; fill: #587166; }
+      .cardTitle { font: 700 18px "PingFang SC", "Microsoft YaHei", sans-serif; fill: #18382f; }
+      .num { font: 700 16px "SF Mono", "Menlo", monospace; fill: #18382f; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1320" fill="url(#bg)"/>
+
+  <rect x="42" y="32" width="1516" height="176" rx="28" fill="url(#hero)" filter="url(#shadow)"/>
+  <text x="82" y="86" class="subtitle">Proposal Dashboard / 主工作驾驶舱</text>
+  <text x="82" y="136" class="title">10-项目工作可视化推进表</text>
+  <text x="82" y="170" class="subtitle">目标：在 2026-05-20 前完成具备推荐条件和竞争力的江苏省高校图工委教改课题送审稿，并为立项后试点建设保留实施线。</text>
+  <rect x="82" y="182" width="520" height="18" rx="9" fill="#ffffff" opacity="0.14"/>
+  <text x="94" y="196" style="font:600 12px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#e4f2eb;">关联报告：10-项目工作.md（课题推进驾驶舱）</text>
+
+  <rect x="1256" y="64" width="246" height="106" rx="24" fill="#ffffff" opacity="0.14"/>
+  <text x="1379" y="103" text-anchor="middle" class="subtitle">当前阶段</text>
+  <text x="1379" y="144" text-anchor="middle" style="font:700 26px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">文稿成型 → 校内打磨</text>
+
+  <rect x="42" y="232" width="1516" height="192" rx="26" fill="url(#panel)" filter="url(#shadow)"/>
+  <text x="74" y="274" class="section">主路径</text>
+  <text x="74" y="304" class="small">这张图不是资料地图，而是推进路径图。先看路径，再看当前阶段，再看课题清单。</text>
+
+  <line x1="122" y1="360" x2="1470" y2="360" stroke="#b8cec4" stroke-width="8" stroke-linecap="round"/>
+  <line x1="556" y1="360" x2="770" y2="360" stroke="#2f7d61" stroke-width="12" stroke-linecap="round"/>
+  <line x1="770" y1="360" x2="982" y2="360" stroke="#d98e28" stroke-width="12" stroke-linecap="round"/>
+
+  <circle cx="170" cy="360" r="32" fill="#1f8a5b"/>
+  <circle cx="376" cy="360" r="32" fill="#1f8a5b"/>
+  <circle cx="588" cy="360" r="32" fill="#2f7d61"/>
+  <circle cx="800" cy="360" r="36" fill="#d98e28"/>
+  <circle cx="1012" cy="360" r="32" fill="#cad6d0"/>
+  <circle cx="1224" cy="360" r="32" fill="#cad6d0"/>
+  <circle cx="1436" cy="360" r="32" fill="#cad6d0"/>
+
+  <text x="170" y="366" text-anchor="middle" style="font:700 15px 'SF Mono','Menlo',monospace; fill:#ffffff;">01</text>
+  <text x="376" y="366" text-anchor="middle" style="font:700 15px 'SF Mono','Menlo',monospace; fill:#ffffff;">02</text>
+  <text x="588" y="366" text-anchor="middle" style="font:700 15px 'SF Mono','Menlo',monospace; fill:#ffffff;">03</text>
+  <text x="800" y="366" text-anchor="middle" style="font:700 15px 'SF Mono','Menlo',monospace; fill:#ffffff;">04</text>
+  <text x="1012" y="366" text-anchor="middle" style="font:700 15px 'SF Mono','Menlo',monospace; fill:#66756e;">05</text>
+  <text x="1224" y="366" text-anchor="middle" style="font:700 15px 'SF Mono','Menlo',monospace; fill:#66756e;">06</text>
+  <text x="1436" y="366" text-anchor="middle" style="font:700 15px 'SF Mono','Menlo',monospace; fill:#66756e;">07</text>
+
+  <text x="130" y="404" class="label">通知解读</text>
+  <text x="322" y="404" class="label">选题收敛</text>
+  <text x="520" y="404" class="label">方案论证</text>
+  <text x="720" y="404" class="label">文稿成型</text>
+  <text x="964" y="404" class="label">校内打磨</text>
+  <text x="1170" y="404" class="label">报送定稿</text>
+  <text x="1386" y="404" class="label">立项实施</text>
+
+  <rect x="42" y="452" width="1100" height="736" rx="26" fill="url(#panel)" filter="url(#shadow)"/>
+  <text x="74" y="494" class="section">课题清单与状态</text>
+  <text x="74" y="524" class="small">颜色规则：绿色=已完成，蓝色=进行中，灰色=未开始，红色=当前硬伤，橙色边框=当前优先推进。</text>
+
+  <rect x="74" y="558" width="320" height="180" rx="20" fill="#f7fcf9" stroke="#3f9a73" stroke-width="2"/>
+  <text x="98" y="594" class="num">T1</text>
+  <rect x="302" y="576" width="68" height="28" rx="14" fill="#3f9a73"/>
+  <text x="336" y="595" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">已完成</text>
+  <text x="98" y="628" class="cardTitle">选题与主叙事收敛</text>
+  <text x="98" y="660" class="text">判断：主标题和教改叙事已基本稳定。</text>
+  <text x="98" y="688" class="text">动作：保持，不再大改方向。</text>
+
+  <rect x="410" y="558" width="320" height="180" rx="20" fill="#f8fbff" stroke="#4a80d8" stroke-width="2"/>
+  <text x="434" y="594" class="num">T2</text>
+  <rect x="638" y="576" width="68" height="28" rx="14" fill="#4a80d8"/>
+  <text x="672" y="595" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">进行中</text>
+  <text x="434" y="628" class="cardTitle">方案边界与一期范围收敛</text>
+  <text x="434" y="660" class="text">判断：一期/二期边界已有，但还可继续压实。</text>
+  <text x="434" y="688" class="text">动作：明确哪些内容只做试点或预研。</text>
+
+  <rect x="746" y="558" width="364" height="180" rx="20" fill="#f8fbff" stroke="#4a80d8" stroke-width="2"/>
+  <text x="770" y="594" class="num">T3</text>
+  <rect x="1022" y="576" width="68" height="28" rx="14" fill="#4a80d8"/>
+  <text x="1056" y="595" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">进行中</text>
+  <text x="770" y="628" class="cardTitle">申报书正文推进到送审稿</text>
+  <text x="770" y="660" class="text">判断：已有框架稿，还不是送审稿。</text>
+  <text x="770" y="688" class="text">动作：继续补齐正文关键字段。</text>
+
+  <rect x="74" y="764" width="320" height="180" rx="20" fill="#fff9f7" stroke="#d26243" stroke-width="4"/>
+  <text x="98" y="800" class="num">T4</text>
+  <rect x="302" y="782" width="68" height="28" rx="14" fill="#d26243"/>
+  <text x="336" y="801" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">未完成</text>
+  <text x="98" y="834" class="cardTitle">申请人、团队、成果等硬信息补齐</text>
+  <text x="98" y="866" class="text">判断：当前最大短板之一。</text>
+  <text x="98" y="894" class="text">动作：补主持人、成员、成果、职称、分工。</text>
+
+  <rect x="410" y="764" width="320" height="180" rx="20" fill="#fff9f7" stroke="#d26243" stroke-width="4"/>
+  <text x="434" y="800" class="num">T5</text>
+  <rect x="638" y="782" width="68" height="28" rx="14" fill="#d26243"/>
+  <text x="672" y="801" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">未完成</text>
+  <text x="434" y="834" class="cardTitle">配套经费与推荐条件明确化</text>
+  <text x="434" y="866" class="text">判断：江苏专项门槛尚未落地。</text>
+  <text x="434" y="894" class="text">动作：把配套经费与推荐支持写成明确承诺。</text>
+
+  <rect x="746" y="764" width="364" height="180" rx="20" fill="#fff9f7" stroke="#d26243" stroke-width="4"/>
+  <text x="770" y="800" class="num">T6</text>
+  <rect x="1022" y="782" width="68" height="28" rx="14" fill="#d26243"/>
+  <text x="1056" y="801" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">未完成</text>
+  <text x="770" y="834" class="cardTitle">前期基础与可实施证据补强</text>
+  <text x="770" y="866" class="text">判断：当前仍偏合理推断，不是证据级表述。</text>
+  <text x="770" y="894" class="text">动作：补平台、协同、既有服务、校内条件证据。</text>
+
+  <rect x="74" y="970" width="320" height="180" rx="20" fill="#f8fbff" stroke="#4a80d8" stroke-width="2"/>
+  <text x="98" y="1006" class="num">T7</text>
+  <rect x="302" y="988" width="68" height="28" rx="14" fill="#4a80d8"/>
+  <text x="336" y="1007" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">进行中</text>
+  <text x="98" y="1040" class="cardTitle">专家视角审计与二次修订</text>
+  <text x="98" y="1072" class="text">判断：已完成首轮评审，仍需复审。</text>
+  <text x="98" y="1100" class="text">动作：每改一轮正文，再做一轮审计。</text>
+
+  <rect x="410" y="970" width="320" height="180" rx="20" fill="#fbfcfc" stroke="#b7c6bf" stroke-width="2"/>
+  <text x="434" y="1006" class="num">T8</text>
+  <rect x="638" y="988" width="68" height="28" rx="14" fill="#aebcb5"/>
+  <text x="672" y="1007" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">未开始</text>
+  <text x="434" y="1040" class="cardTitle">报送材料定稿与装袋检查</text>
+  <text x="434" y="1072" class="text">判断：依赖前面任务完成。</text>
+  <text x="434" y="1100" class="text">动作：在送审稿稳定后统一收口。</text>
+
+  <rect x="746" y="970" width="364" height="180" rx="20" fill="#f5faf7" stroke="#6fa98e" stroke-width="2"/>
+  <text x="770" y="1006" class="num">T9</text>
+  <rect x="1010" y="988" width="80" height="28" rx="14" fill="#6fa98e"/>
+  <text x="1050" y="1007" text-anchor="middle" style="font:700 13px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#ffffff;">已建入口</text>
+  <text x="770" y="1040" class="cardTitle">立项后实施线预留</text>
+  <text x="770" y="1072" class="text">判断：结构已留好，内容未开始。</text>
+  <text x="770" y="1100" class="text">动作：暂不展开，待申报稳定后进入。</text>
+
+  <rect x="1170" y="452" width="388" height="736" rx="26" fill="url(#panel)" filter="url(#shadow)"/>
+  <text x="1202" y="494" class="section">当前聚焦</text>
+  <text x="1202" y="528" class="small">右侧只放最该推进的事，避免继续发散。</text>
+
+  <rect x="1202" y="556" width="324" height="146" rx="20" fill="#fff4e7" stroke="#d98e28" stroke-width="3"/>
+  <text x="1230" y="596" style="font:700 18px 'PingFang SC','Microsoft YaHei',sans-serif; fill:#8d5611;">当前最该推进的一项</text>
+  <text x="1230" y="630" style="font:700 28px 'SF Mono','Menlo',monospace; fill:#8d5611;">T4 + T5 + T6</text>
+  <text x="1230" y="662" class="text">这三项共同决定能否从“框架稿”进入“送审稿”。</text>
+
+  <text x="1202" y="750" class="cardTitle">P1 先补硬信息</text>
+  <text x="1202" y="782" class="text">- 主持人实名信息</text>
+  <text x="1202" y="810" class="text">- 团队成员与研究分工</text>
+  <text x="1202" y="838" class="text">- 主要成果与研究基础</text>
+
+  <text x="1202" y="896" class="cardTitle">P2 再补经费与支持承诺</text>
+  <text x="1202" y="928" class="text">- 一般课题 / 重点课题选择</text>
+  <text x="1202" y="956" class="text">- 配套经费是否已被接受</text>
+  <text x="1202" y="984" class="text">- 推荐单位意见能否落地</text>
+
+  <text x="1202" y="1042" class="cardTitle">P3 最后把“为什么你们能做成”讲实</text>
+  <text x="1202" y="1074" class="text">- 既有平台</text>
+  <text x="1202" y="1102" class="text">- 既有服务基础</text>
+  <text x="1202" y="1130" class="text">- 既有协同资源与实践成果</text>
+
+  <rect x="42" y="1216" width="1516" height="70" rx="22" fill="#18382f"/>
+  <text x="74" y="1258" class="subtitle">送审稿成立标准：申请人/团队/成果/分工补齐；经费与推荐条件明确；研究基础证据化；至少一轮审计后主要 P1 风险清零。  更新日期：2026-04-24</text>
+</svg>

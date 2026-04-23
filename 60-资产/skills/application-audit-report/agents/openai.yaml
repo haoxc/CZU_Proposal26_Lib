@@ -1,0 +1,4 @@
+interface:
+  display_name: "Application Audit Report"
+  short_description: "Turn review results into polished audit memos and SVG scorecards"
+  default_prompt: "Use $application-audit-report to turn the current proposal review into a concise expert audit memo and a polished SVG scorecard with strengths, risks, actions, and Jiangsu-specific gate checks."

@@ -1,0 +1,21 @@
+{
+  "cssTheme": "Minimal",
+  "baseFontSize": 14,
+  "baseFontSizeAction": true,
+  "accentColor": "#162ea7",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "hide-embed-title",
+    "headers",
+    "supercharged-links-gen",
+    "[hao]Callout Style",
+    "[hao]Custom Table",
+    "[hao]headers2",
+    "[hao]headers_light",
+    "[hao]tag",
+    "[hao]code"
+  ],
+  "nativeMenus": false,
+  "showRibbon": false,
+  "translucency": true
+}

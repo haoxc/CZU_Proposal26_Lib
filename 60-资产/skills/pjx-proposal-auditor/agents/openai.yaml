@@ -1,0 +1,4 @@
+interface:
+  display_name: "PJX Proposal Auditor"
+  short_description: "Audit proposal-management repos for structure, naming, dashboards, and drift control"
+  default_prompt: "Use $pjx-proposal-auditor to audit this proposal workspace for directory structure, work-module boundaries, dashboard MOCs, naming rules, change-ledger completeness, and target-drift risks, then recommend precise fixes."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Proposal Review Auditor"
+  short_description: "Score and stress-test applications against expert review criteria"
+  default_prompt: "Use $proposal-review-auditor to audit this application against weighted review criteria, identify Jiangsu-specific gate risks, score each dimension, and list the highest-impact revision priorities."
