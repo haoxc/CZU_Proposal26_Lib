@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git GitHub Bootstrap"
+  short_description: "Initialize a repo, bind origin, and prepare the first GitHub push"
+  default_prompt: "Use $git-github-bootstrap to initialize this folder as a Git repository, add a minimal .gitignore, bind the requested GitHub repository URL as origin, connect Git to existing GitHub CLI credentials if available, and prepare the first commit and push path."
